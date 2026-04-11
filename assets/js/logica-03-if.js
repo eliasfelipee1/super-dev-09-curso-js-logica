@@ -37,7 +37,7 @@ function exemploBasico03(){
         alert ("Número negativo");
     }
     else if (numero > 0) {
-    alert("Número positivo");
+        alert("Número positivo");
     }
     else {
         alert("Número neutro");

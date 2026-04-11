@@ -68,7 +68,7 @@ function exemploBoolean(){
 function calcularSalario(){
     let colaborador = "judity Silva"; 
     let email = "judity.gamer@gg.com";
-    let valohora = 150.60; // por hora de streaming
+    let valorHora = 150.60; // por hora de streaming
     let horasPorMes = 50;
     let beneficioDonate = 3500.98;
 
