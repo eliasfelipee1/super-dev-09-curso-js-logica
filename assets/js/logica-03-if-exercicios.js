@@ -13,14 +13,14 @@ function exercicio01(){
 
 } 
 
-function exercicio02() {
+function exercicio02(){
     let numero = parseInt(prompt("informe um numero"));
 
-
-    if ((numero => 10) && (numero <= 10)) {
+  
+}   if ((numero => 10) && (numero <= 10)) {
         alert("numero maior e menor");
 
- }  else if("numero >= 10") { 
+}  else if("numero >= 10") { 
          alert("maior");
 
 }
