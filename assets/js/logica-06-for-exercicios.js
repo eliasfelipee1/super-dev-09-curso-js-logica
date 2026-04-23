@@ -1,12 +1,16 @@
 function exercicio01MostrarNumeros(){
 
 
-    let indice = 0;
-    debugger
+    let indice = 0; 
 
-    while (indice < 5)
-      
-    
-    indice = indice + 1;
+    while (indice < 4) {
+        console.log("oie");
+        indice = indice + 1;
+}
 
 }
+
+function exercicio02MostrarNomeVariasVezes(){
+    
+}
+
