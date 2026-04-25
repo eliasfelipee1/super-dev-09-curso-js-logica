@@ -25,7 +25,7 @@ for (let indice = 0; indice < 4; indice = indice + 1) {
 function  exemploForJogos(){
     let total = 0;
 
-    for(let  indice = 0; indice < 3; indice = indice + 1){
+    for (let  indice = 0; indice < 3; indice = indice + 1){
         let nome = prompt("digite o nome do jogo");
 
         let preço = parseFloat(prompt("digite o preço"));

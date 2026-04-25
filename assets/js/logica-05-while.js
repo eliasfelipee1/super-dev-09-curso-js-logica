@@ -1,4 +1,4 @@
-function exemplo01() {
+function exemplo01(){
     debugger
     // mostrar uma mensagem 4 vezes
     let indice = 0;  // indice e um contador
@@ -71,7 +71,7 @@ function calcularPrecoJogos(){
         let nome = prompt("nome do jogo"); 
         let preço = parseFloat(prompt("digite o preço"));
 
-        // somando: o total recebe ele mesmo, ou seja o valor inicial da variavel totaç
+        // somando: o total recebe ele mesmo, ou seja o valor inicial da variavel total
         // mais o preço do jogo
         // total = 0 + preço;
         total = total + preco;

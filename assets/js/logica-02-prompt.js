@@ -97,6 +97,4 @@ function exemplo01() {
     
     
     
-    
-    
     }

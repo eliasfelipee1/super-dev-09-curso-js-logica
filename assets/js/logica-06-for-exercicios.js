@@ -14,3 +14,15 @@ function exercicio02MostrarNomeVariasVezes(){
     
 }
 
+
+
+
+function exercicio02MostrarNomeVariasVezes(){
+    let indice = 0;
+
+
+    
+
+
+}
+

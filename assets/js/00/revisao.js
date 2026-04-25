@@ -58,8 +58,7 @@ function for01ComecoFim() {
 
         // Número é ímpar se o resto da divisão é diferente de 0
         if (indice % 2 !== 0) {
-
-            alert(indice);
+               alert(indice);
         }
     }
 }
