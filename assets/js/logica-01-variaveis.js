@@ -21,7 +21,7 @@ function exemploStringConcatenacao(){
     let marcaproduto = "omo"; 
 
 
-    // concatenacao:juntar um string(texto)com alguma outra coisa
+    // concatenacao: juntar um string(texto)com alguma outra coisa
     // "sabao em po" + " " => "sabao em po "
     // "sabao em po " + "omo" => "sabao em po omo"
     let texto = nomeproduto + " " + marcaproduto;
@@ -30,21 +30,23 @@ function exemploStringConcatenacao(){
 
 } 
 
-function exemploNumeroInteiro(){
+function exemploNumeroInteiro() {
+    debugger
     let produto = "pc gamer da xuxa";
     let quantidadePcs = 16;
-
     let quantidadeMemoriaPorPc = 8;
 
-    let totalGb = quantidadesPcs * quantidadeMemoriaPorPc;
+    let totalGb = quantidadePcs * quantidadeMemoriaPorPc;
+
     // "\n" serve para quebrar a linha
     alert(
-
         "produto: " + produto +
-        "\nquantidade de pcs: " +  quantidadePcs +
+        "\nquantidade de pcs: " + quantidadePcs +
         "\nMemoria Ram por pc: " + quantidadeMemoriaPorPc + "GB" +
-        "\ntotal de GB dos pcs: " + totalGb + "GB");
+        "\ntotal de GB dos pcs: " + totalGb + "GB"
+    );
 }
+
 
 function exemploFloat(){
     let endereco = "rua xv de novembro"; // string
@@ -66,31 +68,43 @@ function exemploBoolean(){
 }
 
 function calcularSalario(){
-    let colaborador = "judity Silva"; 
+    debugger
+    let colaborador = "Judity Silva";
     let email = "judity.gamer@gg.com";
     let valorHora = 150.60; // por hora de streaming
     let horasPorMes = 50;
     let beneficioDonate = 3500.98;
 
-    // calcular o salario bruto
-    let salarioBruto = valorHora * horasPorMes
- 
-    // calcular o salarioLiquido
-    let salarioLiquido = salarioBruto + beneficioDonate
+    // calcular o salário bruto
+    let salarioBruto = valorHora * horasPorMes;
 
-    alert(  
+    // calcular o salário líquido
+    let salarioLiquido = salarioBruto + beneficioDonate;
+
+    alert(
         "colaborador: " + colaborador + "\n" +
         "email: " + email + "\n" +
         "valor por hora: R$ " + valorHora.toFixed(2) + "\n" +
         "horas por mes: " + horasPorMes + "h\n" +
-        "salario bruto: R$ " + salarioBruto.tofixed(2) + "\n" +
-        "beneficio donate: R$ " + beneficioDonate.tofixed(2) + "\n" +
-        "salario liquido: R$ " + salarioLiquido.tofixed(2)
+        "salario bruto: R$ " + salarioBruto.toFixed(2) + "\n" +
+        "beneficio donate: R$ " + beneficioDonate.toFixed(2) + "\n" +
+        "salario liquido: R$ " + salarioLiquido.toFixed(2)
+    );
+}
 
+function calcularTempoMes(){
+    let segundosPorMinuto = 60;
+    let minutosPorHora = 60;
+    let horasPorDia = 24;
 
+    let segundosPorDia = segundosPorMinuto * minutosPorHora * horasPorDia;
 
-    )
-
+    alert(
+        "Segundos por minuto: " + segundosPorMinuto +
+        "\nMinutos por hora: " + minutosPorHora +
+        "\nHoras por dia: " + horasPorDia +
+        "\nSegundos por dia: " + segundosPorDia
+    );
 }
  
 

@@ -96,47 +96,21 @@ function exercicio02(){
     let valoresHora = [];
 
    
-     
-
     
 
     materias.push(prompt("digite o nome da materia"));
-
-
-
-    cargaHoraria.push(parseInt(prompt("digite a cargaHoraria")));
+    cargaHoraria.push(parseInt(("")));
+    valoresHora.push(parseFloat(""))
 
     
 
-     alunos.push(prompt("digite o nome do aluno"));
-    frenquencias.push(parseInt(prompt("digite o percentual de frequencia")));
-
-
-     cargaHoraria.push("45");
-
-     valoresHora.push("60.99");
-
-
-
-     materias.push("matematica");
-
-     cargaHoraria.push("48")
-
-     valoresHora.push("30.00");
-
-
-
-     materias.push("ingles");
-
-     cargaHoraria.push("20");
-
-     valoresHora.push("35.00");
+     
 
 
 
 
 
-     alert("lista de materias: " + materias.length )
+   
 
     
 

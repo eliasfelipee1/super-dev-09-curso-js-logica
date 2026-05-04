@@ -4,7 +4,7 @@ function exemplo01() {
         //string
         let nome = prompt("Digite o seu nome");
     
-        let sobrenome= prompt("Digite o seu sobrenome");
+        let sobrenome = prompt("Digite o seu sobrenome");
     
     //Gerar o nome Completo
     //Concatenando nome, espaço e sobrenome
@@ -34,7 +34,7 @@ function exemplo01() {
         let numero1 = parseInt(prompt("Digite o número 1"));
         let numero2 = parseInt(prompt("Digite o número 2"));
         let soma = numero1 + numero2;
-        alert ("Soma:" + soma);
+        alert ("Soma: " + soma);
     }
     
     function conversaoStringParaFloat() {
@@ -53,7 +53,7 @@ function exemplo01() {
     
     
     function exempplo02() {
-        let nome= prompt("Digite o nome do atleta");
+        let nome = prompt("Digite o nome do atleta");
     
         //Solicitar a altura em metros, para isso utilizaremos um float
         let altura = parseFloat(prompt("Digite a altura"));
@@ -75,7 +75,7 @@ function exemplo01() {
     
         alert("idade: " + idade);
     }
-    
+
     function exemplo04() {
     
         let modelo = prompt("Informe o modelo do carro");
@@ -90,11 +90,7 @@ function exemplo01() {
         alert("Carro:" + modelo +
             "\nAno: " + ano +
             "\n Distância estimada: " + distancia + " km"
-    
-    
-
-        )
-    
+        );
     
     
     }
