@@ -21,7 +21,7 @@ function exemploBasico02() {
     }
 
     else if (idade < 60) { // se a idade é menor que 60 anos
-       alert ("Adulto")
+       alert ("Adulto");
     }
     else {
 // senão eu sei que é maior que 59
@@ -47,7 +47,7 @@ function exemploBasico03(){
 function exemploProduto() {
 // Produtos|: Maçã 0.80, Pera 1.20, Laranja 2.50, Banana 2.00
 // Senão for nenhuma das opções encerra a execução
-    let produto = prompt('Digite o nome do produto');
+    let produto = prompt("Digite o nome do produto");
     let quantidade = prompt("Digite a quantidade");
 
     let precoUnitario = 0;

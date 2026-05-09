@@ -16,22 +16,57 @@ function exercicio01(){
 function exercicio02(){
     let numero = parseInt(prompt("informe um numero"));
 
+
+   if (numero < 10){
+       alert("menor que 10")
+    }
+    else {  (numero > 10) 
+      alert("maior que 10");
+     }
   
-}   if ((numero => 10) && (numero <= 10)) {
-        alert("numero maior e menor");
-
-}  else if("numero >= 10") { 
-         alert("maior");
-
 }
-
 
 function exercicio03(){
-    let numero = prompt("informar numero");
+    let numero = parseInt(prompt("digite um numero"));
+    debugger
 
 
-    if ("numero ");
-
+    if (numero <= 0) {
+        alert("zero");
+    }
+    
+    else  { (numero > 0)  
+        alert("nao e zero");
+    }
 }
 
 
+
+
+function exercicio04(){
+    let numero = parseInt(prompt("digite um numero"));
+    
+
+    if (numero == 8001) {
+        alert("é 8001");
+    }
+    else { (numero != 8001)
+        alert("diferente de 8001");
+
+    }
+}
+
+function exercicio05(){
+    let numerosInteiro = parseInt(prompt("digite o numero"));
+
+    
+    if(numero > 0){
+        alert("positivo");
+    }
+
+    else { (numero < 0)
+        alert("negativo");
+
+    }
+
+}
